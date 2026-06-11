@@ -14,7 +14,7 @@ const SigninPage = () => {
   const [selected, setSelected] = useState("yes");
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="p-4">
       {" "}
       <h1 className="text-3xl font-bold">Create your PopX account</h1>
       <div className="space-y-4 my-4">

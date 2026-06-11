@@ -5,7 +5,7 @@ import InputBox from "../components/InputBox";
 const LoginPage = () => {
   const [credential, setCredential] = useState({ email: "", password: "" });
   return (
-    <div>
+    <div className="p-4">
       {" "}
       <h1 className="text-2xl font-bold">Signin to your PopX account</h1>
       <p className="text-gray-400 my-2">

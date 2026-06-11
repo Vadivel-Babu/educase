@@ -8,7 +8,7 @@ import ProfilePage from "./pages/ProfilePage";
 function App() {
   return (
     <div className="py-10">
-      <div className="max-w-87.5 border-2 bg-gray-50 border-gray-200 p-4 h-200 mx-auto">
+      <div className="max-w-87.5 border-2 bg-[#F7F8F9] border-gray-200  h-200 mx-auto">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
